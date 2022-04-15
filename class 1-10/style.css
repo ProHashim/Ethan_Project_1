@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  /* To include padding in the element width */
+  box-sizing: border-box;
+}
+
+/* CSS variables */
+:root {
+  --color--heading: #111111;
+  --color-button-text: #292d33;
+  --color-button-background: #f7bc08;
+  --color--normal-text: #999999;
+}
