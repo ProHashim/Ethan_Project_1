@@ -1,0 +1,19 @@
+img {
+  max-width: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline-block;
+}

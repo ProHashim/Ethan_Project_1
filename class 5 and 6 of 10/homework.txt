@@ -1,0 +1,3 @@
+Flex container properties (Done)
+flex items properties 
+zoom card (try to do it with flex)

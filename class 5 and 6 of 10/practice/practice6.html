@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100%;
+      }
+
+      img {
+        /* max-inline-size: 100%; */
+        block-size: auto;
+      }
+
+      header {
+        display: flex;
+        min-height: 100px;
+        justify-content: space-between;
+        max-width: 1170px;
+        margin: 0 auto;
+        align-items: center;
+        /* position: fixed; */
+      }
+      /* descendant class */
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0 20px;
+        gap: 20px;
+      }
+
+      .nav nav ul li a {
+        text-decoration: none;
+        color: #111;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      main {
+        display: flex;
+        max-width: 1170px;
+        margin: 0 auto;
+        /* max-height: 60vh; */
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .section-image {
+        width: 100%;
+        /* max-width: 500px; */
+        max-height: 400px;
+      }
+
+      .sec1 {
+        /* display: flex; */
+      }
+      footer {
+        max-width: 1170px;
+        margin: 0 auto;
+      }
+      footer p {
+        /*text-align: center;*/
+      }
+      #img1 {
+        max-width: 5%;
+        max-height: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo-image">
+        <a href="/">
+          <img
+            src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+            alt="logo here"
+            id="img1"
+          />
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="login-btn">
+        <button onclick="dosomething()">Login</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="sec1">
+        <h1>Website Name</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, illum!
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+      <section>
+        <img
+          src="https://source.unsplash.com/random"
+          alt=""
+          class="section-image"
+        />
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2022</p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
