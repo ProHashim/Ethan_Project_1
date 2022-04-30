@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container div {
+    /* flex-direction: column; */
+    flex-basis: 50%;
+  }
+}
